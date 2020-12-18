@@ -10,9 +10,13 @@
 		E7514CB8258C376F00D214DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7514CB7258C376F00D214DD /* AppDelegate.swift */; };
 		E7514CBA258C376F00D214DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7514CB9258C376F00D214DD /* SceneDelegate.swift */; };
 		E7514CBC258C376F00D214DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7514CBB258C376F00D214DD /* ContentView.swift */; };
-		E7514CBE258C377200D214DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7514CBD258C377200D214DD /* Assets.xcassets */; };
 		E7514CC1258C377200D214DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7514CC0258C377200D214DD /* Preview Assets.xcassets */; };
 		E7514CC4258C377200D214DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7514CC2258C377200D214DD /* LaunchScreen.storyboard */; };
+		E7514CCC258C3CCD00D214DD /* Sandwich.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7514CCB258C3CCD00D214DD /* Sandwich.swift */; };
+		E7514CCE258C3D6300D214DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7514CCD258C3D6300D214DD /* Assets.xcassets */; };
+		E791608A258C8E9D00DDA26C /* SandwichStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7916089258C8E9D00DDA26C /* SandwichStore.swift */; };
+		E791608C258C912700DDA26C /* SandwichsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E791608B258C912600DDA26C /* SandwichsApp.swift */; };
+		E7AF7A41258C6C6F0029F52C /* SandwichDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AF7A40258C6C6F0029F52C /* SandwichDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		E7514CB7258C376F00D214DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7514CB9258C376F00D214DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E7514CBB258C376F00D214DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		E7514CBD258C377200D214DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7514CC0258C377200D214DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7514CC3258C377200D214DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E7514CC5258C377200D214DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7514CCB258C3CCD00D214DD /* Sandwich.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sandwich.swift; sourceTree = "<group>"; };
+		E7514CCD258C3D6300D214DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Downloads/Sandwichs-iOS14-WWDC-Tutorial-main/Shared/Assets.xcassets"; sourceTree = "<group>"; };
+		E7916089258C8E9D00DDA26C /* SandwichStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichStore.swift; sourceTree = "<group>"; };
+		E791608B258C912600DDA26C /* SandwichsApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandwichsApp.swift; sourceTree = "<group>"; };
+		E7AF7A40258C6C6F0029F52C /* SandwichDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandwichDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				E7514CB7258C376F00D214DD /* AppDelegate.swift */,
 				E7514CB9258C376F00D214DD /* SceneDelegate.swift */,
+				E791608B258C912600DDA26C /* SandwichsApp.swift */,
+				E7514CCB258C3CCD00D214DD /* Sandwich.swift */,
 				E7514CBB258C376F00D214DD /* ContentView.swift */,
-				E7514CBD258C377200D214DD /* Assets.xcassets */,
+				E7AF7A40258C6C6F0029F52C /* SandwichDetail.swift */,
+				E7916089258C8E9D00DDA26C /* SandwichStore.swift */,
+				E7514CCD258C3D6300D214DD /* Assets.xcassets */,
 				E7514CC2258C377200D214DD /* LaunchScreen.storyboard */,
 				E7514CC5258C377200D214DD /* Info.plist */,
 				E7514CBF258C377200D214DD /* Preview Content */,
@@ -135,7 +147,7 @@
 			files = (
 				E7514CC4258C377200D214DD /* LaunchScreen.storyboard in Resources */,
 				E7514CC1258C377200D214DD /* Preview Assets.xcassets in Resources */,
-				E7514CBE258C377200D214DD /* Assets.xcassets in Resources */,
+				E7514CCE258C3D6300D214DD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7514CCC258C3CCD00D214DD /* Sandwich.swift in Sources */,
 				E7514CB8258C376F00D214DD /* AppDelegate.swift in Sources */,
+				E791608A258C8E9D00DDA26C /* SandwichStore.swift in Sources */,
 				E7514CBA258C376F00D214DD /* SceneDelegate.swift in Sources */,
+				E7AF7A41258C6C6F0029F52C /* SandwichDetail.swift in Sources */,
 				E7514CBC258C376F00D214DD /* ContentView.swift in Sources */,
+				E791608C258C912700DDA26C /* SandwichsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
