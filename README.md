@@ -1,6 +1,5 @@
 # SwiftUI-ListDisplay
-# Apple公式 SwiftUIチュートリアルサンプルアプリ
-
+# Apple公式 SwiftUIチュートリアルサンプル
 - 動画
 https://developer.apple.com/videos/play/wwdc2020/10119/
 
